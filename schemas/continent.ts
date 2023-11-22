@@ -19,11 +19,6 @@ export default {
       title: 'Image',
     },
     {
-      name: 'icons',
-      type: 'string',
-      title: 'Icon',
-    },
-    {
       name: 'description',
       type: 'text',
       title: 'Description',
