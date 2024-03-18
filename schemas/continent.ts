@@ -24,11 +24,6 @@ export default {
 			title: 'Description',
 		},
 		{
-			name: 'countriesQuantity',
-			type: 'number',
-			title: 'Country Quantity',
-		},
-		{
 			name: 'countries',
 			type: 'array',
 			of: [
