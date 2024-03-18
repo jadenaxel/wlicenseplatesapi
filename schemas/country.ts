@@ -19,11 +19,6 @@ export default {
 			title: 'Image',
 		},
 		{
-			name: 'platesNumber',
-			type: 'string',
-			title: 'Plates Quantity',
-		},
-		{
 			name: 'description',
 			type: 'text',
 			title: 'Description',
