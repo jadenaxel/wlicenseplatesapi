@@ -2,6 +2,7 @@ export default {
 	name: 'continent',
 	type: 'document',
 	title: 'Continent',
+
 	fields: [
 		{
 			name: 'title',
@@ -15,8 +16,13 @@ export default {
 		},
 		{
 			name: 'image',
-			type: 'string',
+			type: 'image',
 			title: 'Image',
+			options: {
+				metadata: ['location', 'palette'],
+				accept: '.png, .jpg, .jpeg',
+				hotspot: true,
+			},
 		},
 		{
 			name: 'description',

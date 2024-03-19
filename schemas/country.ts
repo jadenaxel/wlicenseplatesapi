@@ -10,13 +10,23 @@ export default {
 		},
 		{
 			name: 'flag',
-			type: 'string',
+			type: 'image',
 			title: 'Flag',
+			options: {
+				metadata: ['location', 'palette'],
+				accept: '.png, .jpg, .jpeg',
+				hotspot: true,
+			},
 		},
 		{
 			name: 'image',
-			type: 'string',
+			type: 'image',
 			title: 'Image',
+			options: {
+				metadata: ['location', 'palette'],
+				accept: '.png, .jpg, .jpeg',
+				hotspot: true,
+			},
 		},
 		{
 			name: 'description',

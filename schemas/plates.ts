@@ -7,7 +7,12 @@ export default {
 		{
 			title: 'Background',
 			name: 'bg',
-			type: 'string',
+			type: 'image',
+			options: {
+				metadata: ['location', 'palette'],
+				accept: '.png, .jpg, .jpeg',
+				hotspot: true,
+			},
 		},
 		{
 			title: 'Year',
@@ -20,7 +25,12 @@ export default {
 			type: 'array',
 			of: [
 				{
-					type: 'string',
+					type: 'image',
+					options: {
+						metadata: ['location', 'palette'],
+						accept: '.png, .jpg, .jpeg',
+						hotspot: true,
+					},
 				},
 			],
 		},
