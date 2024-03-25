@@ -3,7 +3,11 @@ export default {
 	type: 'document',
 	title: 'Plates',
 	fields: [
-		{title: 'Title', name: 'title', type: 'string'},
+		{
+			title: 'Year',
+			name: 'year',
+			type: 'string',
+		},
 		{
 			title: 'Background',
 			name: 'bg',
@@ -15,11 +19,6 @@ export default {
 			},
 		},
 		{
-			title: 'Year',
-			name: 'year',
-			type: 'number',
-		},
-		{
 			title: 'Image',
 			name: 'image',
 			type: 'array',
@@ -28,7 +27,6 @@ export default {
 					type: 'image',
 					options: {
 						metadata: ['location', 'palette'],
-						accept: '.png, .jpg, .jpeg',
 						hotspot: true,
 					},
 				},

@@ -14,7 +14,6 @@ export default {
 			title: 'Flag',
 			options: {
 				metadata: ['location', 'palette'],
-				accept: '.png, .jpg, .jpeg',
 				hotspot: true,
 			},
 		},
@@ -24,7 +23,6 @@ export default {
 			title: 'Image',
 			options: {
 				metadata: ['location', 'palette'],
-				accept: '.png, .jpg, .jpeg',
 				hotspot: true,
 			},
 		},
