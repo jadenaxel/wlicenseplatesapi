@@ -12,10 +12,6 @@ export default {
 			name: 'flag',
 			type: 'image',
 			title: 'Flag',
-			options: {
-				metadata: ['location', 'palette'],
-				hotspot: true,
-			},
 		},
 		{
 			name: 'image',

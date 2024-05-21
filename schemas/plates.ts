@@ -61,7 +61,7 @@ export default {
 		{
 			name: 'categories',
 			type: 'array',
-			title: 'Cateogires',
+			title: 'Categories',
 			of: [
 				{
 					type: 'reference',

@@ -10,11 +10,6 @@ export default {
 			title: 'Title',
 		},
 		{
-			name: 'platesNumber',
-			type: 'number',
-			title: 'Plates Quantity',
-		},
-		{
 			name: 'image',
 			type: 'image',
 			title: 'Image',
